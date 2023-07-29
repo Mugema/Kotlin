@@ -14,7 +14,7 @@ fun main(){
     println("Enter the corresponding value of c:")
     val c:Int= readln().toInt()
     val answer1:Double = (-b+sqrt(b*b- 4*a*c))/2*a
-    val answer2:Double = (1-b-sqrt(b*b- 4*a*c))/2*a
+    val answer2:Double = (-b-sqrt(b*b- 4*a*c))/2*a
 
     println("The answers are $answer1 and $answer2" )
 
